@@ -1,0 +1,10 @@
+/* cycle slider styles */
+.cycle-slideshow,.cycle-slideshow *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.cycle-slideshow{width:400px;height:400px;margin:0;padding:0;position:absolute; top:620px;left:1055px;background:url(spinner.gif) 50% 50% no-repeat;cursor:pointer}
+.cycle-slideshow > div{position:absolute;top:0;left:0;width:100%;padding:0}
+.cycle-slideshow img{position:absolute;top:0;left:0;width:100%;padding:0;display:block}/* in case script does not load */
+.cycle-slideshow img:first-child{position:static;z-index:100}/* overlay */
+.cycle-overlay{font:15px 'Verdana',Helvetica,sans-serif;position:absolute;bottom:0;width:100%;z-index:600;background:#000;color:#fff;padding:5px 15px;opacity:.5}/* display paused text on top of paused slideshow */
+.cycle-paused:after{content:'Paused';color:#fff;padding:10px;z-index:500;position:absolute;top:10px;right:10px;font:15px 'verdana',helvetica,sans-serif;border-radius:10px;background:#000;opacity:.5;filter:alpha(opacity=50)}
+.cycle-slideshow a{font:15px 'trebuchet MS',verdana,sans-serif;text-decoration:underline;color:#fff}
+.cycle-slideshow a:hover{color:#0593FF}
