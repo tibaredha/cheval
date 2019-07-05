@@ -1,0 +1,347 @@
+
+/* Right Column */
+#the300000 {top:10px;}
+#the300000.affix-bottom { position: absolute; top: auto; }
+	
+
+.vz_item {
+	width:100%;
+	float: left;
+	margin-bottom: 15px;
+	transition: all 200ms ease-in-out;
+}
+
+.vz_similar .vz_item {min-height:275px;}
+.vz_similar_ads .vz_item {min-height:220px;}
+
+.vz_item:hover,
+.vz_item_r:hover {
+	-moz-box-shadow: 0 2px 10px rgba(0,0,0,.2);
+	box-shadow: 0 2px 10px rgba(0,0,0,.2);
+}
+
+.vz_item:hover ul.vz-tags > li > a {
+    color:#3ba207;
+}
+
+.vz_lc {
+	position:relative;
+	width:40%;
+	float: left;
+}
+
+.vz_lc a {
+    width: 100%;
+    height: 185px;
+    max-height: 200px;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+	display:block;
+}
+.vz_lc a img {
+    position: absolute;
+    max-width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.vz_bc {
+	padding:10px 15px;
+	width:60%;
+	float: left;
+	position: relative;
+	height: 185px;
+}
+
+.vz_dur {
+	position:absolute;
+	right:5px;
+	bottom:5px;
+	color:#FFF;
+	background-color:#677286;
+	padding: 4px 10px;
+	font-size: 0.9em;
+}
+
+a.vzl {
+	display:block;
+	margin:11px 0 7px;
+	font-size:20px;
+	line-height: 23px;
+}
+
+ul.vz-data {
+	color:#767676;
+	padding:0;
+	margin:0;
+}
+
+ul.vz-data > li {
+    line-height: 1.3em;
+    display: inline-block;
+	font-size:11px;
+}
+
+/*ul.vz-data > li:last-child:before {*/
+ul.vz-data > li:not(:first-child):before {
+    content: '\002022';
+    margin:0 5px 0 2px;
+}
+
+ul.vz-tags {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	bottom: 8px;
+}
+
+ul.vz-tags > li > a {
+	color:#767676;
+	margin:0;
+	font-weight:400;
+}
+ul.vz-tags > li {
+	display: inline-block;
+	font-size:11px;
+}
+
+.vz_item_r {
+	margin-bottom: 15px;
+	padding:0;
+	transition: all 200ms ease-in-out;
+}
+
+.vz_lc_l {
+	display:inline-block;
+	width:100%;
+	position:relative;
+}
+
+.vz_lc_l a {
+    width: 100%;
+    height: 110px;
+    max-height: 110px;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+	display:block;
+}
+.vz_lc_l a img {
+    position: absolute;
+    max-width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.vz_lc_r {
+	display:inline-block;
+	width:100%;
+	padding: 1% 2% 0px;
+}
+
+ul.vz-data {
+	color:#767676;
+	padding:0;
+	margin:0;
+}
+
+h3#sim_v_t {
+	padding:20px 10px 0;
+}
+
+a.vzlr {
+	display:block;
+	font-weight:700;
+	color:#A9003E !important;
+}
+
+.vz_item_r:hover a.vzlr {
+	text-decoration:underline;
+}
+
+
+
+/* SIMILAR */
+
+
+.vz_lc2,
+.vz_lc3 {
+	position:relative;
+}
+
+.vz_lc2 a {
+    width: 100%;
+    height: 180px;
+    max-height: 200px;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+	display:block;
+}
+.vz_lc2 a img {
+    position: absolute;
+    max-width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.vz_bc2 {
+	padding:0 5px;
+}
+
+a.vzl2 {
+	margin-top:5px;
+	display:block;
+	font-weight:700;
+}
+
+ul.vz-tags2 {
+	padding:0;
+}
+ul.vz-tags2 > li > a {
+	color:#767676;
+	margin:0;
+	font-weight:400;
+}
+ul.vz-tags2 > li {
+	display: inline-block;
+	font-size:11px;
+}
+
+/* similar ads */
+
+.vz_lc3 a {
+    width: 100%;
+    height: 150px;
+    max-height: 150px;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+	display:block;
+}
+
+/* video & content Page */
+
+.embed-v {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-v iframe, .embed-v object, .embed-v embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+ul#vz-tags {padding:0 0 0 30px;margin:4px 0 15px;}
+ul#vz-tags > li > a {color:#3ba207;margin:0;font-weight:400;}
+ul#vz-tags > li {display:inline-block;font-size:12px;margin-right:25px;}
+
+
+div.articledesc h2 {font-weight:700;font-size:2.3em;margin:45px 0 0;}
+div.articledesc h3 {font-weight:700;font-size:18px;margin:20px 0 0;}
+div.articledesc {padding:15px 40px;}
+
+div.articledesc p {
+	font-size:16px;
+	line-height: 1.75;
+	word-wrap: break-word;
+	margin: 25px 0;
+	font-family: 'Poppins', sans-serif;
+	color: #4e5056;
+	text-align:justify;
+}
+
+div.articledesc a {text-decoration:underline;}
+
+div.articledesc ul {
+	padding:20px 0 10px 35px;
+	list-style-image: url(https://www.equirodi.com/images/puce.gif);
+	font-size:16px;
+	line-height: 1.75;
+	font-family: 'Poppins', sans-serif;
+	color: #4e5056;
+}
+div.articledesc ul li {margin:15px 0 0 0;}
+
+div.articledesc ul.listcontent {padding:0 0 10px 35px;}
+
+div.articledesc .btns {text-align:center;}
+div.articledesc .btn {text-decoration:none;color:#FFF;background-color:#A9003E;margin:20px auto;display:table;}
+div.articledesc .btns .btn {display:inline-block;}
+
+article h1 {
+	color: #A9003E;
+	font-size: 26px;
+	width: 100%;
+	font-weight: 700;
+}
+
+ul#head-metas {float:left;color:#666;margin:12px 0 3px;padding:0;}
+ul#head-metas li {display:inline-block;}
+
+ul#head-metas li#author::after,
+ul#head-metas li.aft::after,
+ul#head-metas li#date::after {
+	content: '';
+	display: inline-block;
+	margin: 0 10px 0 8px;
+	border-left: 1px solid #666;
+	height: 11px;
+	vertical-align: middle;
+}
+
+#review_title {
+	font-size: 3em;
+	margin: 15px 0 5px;
+	display: block;
+}
+
+#share_top {float:right;	clear:none !important;}
+#share_top span:first-child {margin-right:10px;}
+#share_top * {display:inline-block;vertical-align:middle;}
+
+.vz_item .glyphicon-camera, 
+.vz_item .glyphicon-facetime-video {color:#fff;margin:0;font-size:unset;}
+
+#the_author {text-align:center;}
+#the_author img {margin-top:15px;}
+#the_author h4 {margin-top:15px;color:#a9003E;font-size:0.9em;font-weight:700;}
+#the_author span.name {font-weight:700;color:#333;font-size:1.2em;}
+#the_author p {margin:15px auto;text-align:justify;width:80%;line-height:22px;}
+
+
+/* Commentaires */
+
+#the_comments{float:left}
+#the_comments .acomment{float:left;border-bottom:1px solid #ddd;padding-bottom:15px;}
+#the_comments .commentimg{float:left;width:10%}
+#the_comments .commentdatas{float:left;width:90%;padding:0 3%}
+#the_comments .commentdatas span{display: block;margin-bottom: 5px;}
+
+@media screen and (max-width: 640px) {
+
+	article h1 {font-size:2em;}
+	#review_title {font-size:1.5em;}
+	div.articledesc {padding:15px;}
+	.vz_item {min-height:275px;}
+	.vz_lc {	width:100%;}
+	.vz_bc {	padding:10px 5px 0;	width:100%;	height:auto;}
+	ul.vz-tags {	position:unset;margin:10px;}
+	
+	.clearsm {
+		display:block !important;
+		float:none !important;
+		width:auto !important;
+		margin: auto !important;
+	}
+}

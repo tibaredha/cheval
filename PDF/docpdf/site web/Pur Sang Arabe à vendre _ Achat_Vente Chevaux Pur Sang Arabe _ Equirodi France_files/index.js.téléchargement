@@ -1,0 +1,56 @@
+var ua = navigator.userAgent;
+var evtrwd = evt = ( (ua.match(/iPad/i)) || (ua.match(/webOS/i)) || (ua.match(/iPhone/i)) || (ua.match(/BlackBerry/i)) || (ua.match(/Kindle Fire/i)) || (ua.match(/Nexus/i)) || (ua.match(/Android/i)) ) ? "touchstart" : "click";
+
+jQuery(document).ready(function(){
+
+	jQuery('#link_top').on('click',function(){jQuery('html,body').animate({scrollTop:0},'slow');});
+	
+	/* mail alerts */
+	jQuery('.btn-alert-mail').on('click',function(){jQuery('#pop-mail-alert').modal().show();});
+	
+	jQuery('#save-mail-alert').on('click',function(){
+		
+		var label = jQuery('#search_name').val();
+	
+		if( label == '' ){
+			jQuery('#search_name').addClass('error');
+		}
+		else{
+			
+			jQuery(this).prop('disabled', true);
+			
+			jQuery.ajax({url:"me/followsearch",async:false,type:"POST",data:{url:document.URL,search_name:label},
+			success: function(json){
+			
+				if(json.valid)
+				{
+					jQuery('#search_text').hide();
+					jQuery('#search_name').hide();
+					jQuery('#save-mail-alert').hide();
+					jQuery('#save-alert-new').show();
+					jQuery('#div_follow_search_ok').show();
+				}
+				else if(json.already)
+				{
+					jQuery('#search_text').hide();
+					jQuery('#search_name').hide();
+					jQuery('#save-mail-alert').hide();
+					jQuery('#save-alert-already').show();
+					jQuery('#div_follow_search_ok').show();
+				}
+				else	
+				{
+					jQuery(this).prop('disabled', false);
+					alert('oops');
+				}
+			
+			}});
+			return false;
+
+		}
+	});
+	/* end mail alerts */
+	
+	
+});
+
