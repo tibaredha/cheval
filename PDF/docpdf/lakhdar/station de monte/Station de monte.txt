@@ -1,0 +1,15 @@
+Tiaret:          Station de monte de: Tiaret, Si Abdelghani; Z'malet Emir AEK.
+Laghouat:        Station de monte d'Aflou.
+Djelfa:          Station de monte de: Djelfa et Ain Ouessera.
+Médéa:           Station de monte de Chahbounia.
+M'Sila:          Station de monte de Bousaada.
+Oran:            Station d'El Kerma.
+Sidi Bel Abbess: Station de monte de Dhaya.
+Tlemcen:         Station de monte de Magoura.
+Chlef:           Station de monte de Sobha.
+Blida:           Station de monte de Blida ( Institut Vétérinaire).
+Setif;:          Station de monte de Bazer Sekhra.
+Constantine:     Station de Ain El Bey.
+Khenchla:        Station de monte d'El Mahmel, Sedrata.
+Batna:           Station de monte de Bitam - Barika.
+Tebessa:         El Kouif, Bir Mokadem, El Meridj.
